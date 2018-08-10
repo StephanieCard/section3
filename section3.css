@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.section3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.video-app{
+    width: 86vw;
+    height: 48vw;
+    margin-top: 2vw;
+}
+
+.botao-testedemo{
+    width: 86vw;
+    height: 10vw;
+    margin-top: 5vw;
+}
+
+
+@media(min-width: 500px){
+    .botao-testedemo {
+        width: 61.8vw;
+        height: 6vw;
+        margin-top: 2vh;
+    }
+    
+    .video-app{
+        width: 61.8vw;
+        height: 34vw;
+        margin-top: 2vw;
+    }
+}
+
+@media(min-width: 1050px){
+    .botao-testedemo {
+        width: 45vw;
+        height: 8vh;
+        margin-top: 2vh;
+    }
+    .video-app {
+        width: 45vw;
+        height: 26vw;
+    }
+}
